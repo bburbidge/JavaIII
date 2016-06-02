@@ -8,10 +8,10 @@
         <artifactId>com.makesrc</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.makesrc</groupId>
-    <artifactId>Lab1</artifactId>
+    <groupId>com.Examples4</groupId>
+    <artifactId>Examples4</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Lab1</name>
+    <name>Examples4</name>
     <url>http://maven.apache.org</url>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

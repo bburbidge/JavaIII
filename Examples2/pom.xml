@@ -1,21 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.makesrc</groupId>
-    <artifactId>com.makesrc</artifactId>
+    <parent>
+        <groupId>com.makesrc</groupId>
+        <artifactId>com.makesrc</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <groupId>com.Examples2</groupId>
+    <artifactId>Examples2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
-
-    <name>JavaIII</name>
+    <name>Examples2</name>
     <url>http://maven.apache.org</url>
-
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -24,22 +25,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <modules>
-        <module>Examples1</module>
-        <module>Examples2</module>
-        <module>Examples3</module>
-        <module>Examples4</module>
-        <module>Examples5</module>
-        <module>Examples6</module>
-        <module>Examples7</module>
-        <module>Homework1</module>
-        <module>Homework2</module>
-        <module>Homework3</module>
-        <module>Homework4</module>
-        <module>Homework5</module>
-        <module>Lab4</module>
-        <module>Lab5</module>
-    </modules>
     <build>
         <resources>
             <resource>
