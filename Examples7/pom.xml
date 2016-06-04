@@ -8,7 +8,7 @@
         <artifactId>com.makesrc</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.Examples7</groupId>
+    <groupId>Examples7</groupId>
     <artifactId>Examples7</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Examples7</name>
@@ -17,29 +17,20 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.8.1</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
     <build>
+        <outputDirectory>../target</outputDirectory>
+        <testSourceDirectory>../test</testSourceDirectory>
+        <sourceDirectory>src</sourceDirectory>
         <resources>
             <resource>
-                <directory>src/main/resources</directory>
+                <directory>../resources/Examples7</directory>
             </resource>
         </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <configuration>
-                    <archive>
-                        <manifestFile>src/main/resources/METAINF/MANIFEST.MF</manifestFile>
-                    </archive>
-                </configuration>
+                <version>2.3.2</version>
             </plugin>
         </plugins>
     </build>
